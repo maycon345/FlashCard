@@ -46,8 +46,9 @@ footer p{
 .cartao__conteudo {
     text-align: center;
     height: 100%;
+    background-color: var(--card-front-color);
+}
 
-}background-color: var(--card-front-color);
 .cartao__conteudo h3 {
     background-color: tomato;
     text-align: left;
@@ -63,6 +64,9 @@ footer p{
     font-weight: 500;
 }
 
-
+.cartao__conteudo__resposta p{
+    color: var(--card-back-color);
+    font-weight: 700;
+}
 
 
