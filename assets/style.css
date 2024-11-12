@@ -1,4 +1,14 @@
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+
+
+
+
 body {
+
     background: url('img/bg-desktop.webp');
 }
 footer {
@@ -6,8 +16,8 @@ footer {
     color: white;
 }
 footer {
-    background-color: black;
-    color: white;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     bottom:0;
     position:fixed;
     width:100%;
