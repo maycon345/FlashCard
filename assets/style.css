@@ -58,7 +58,8 @@ footer p{
     position: absolute;
     margin: 0.6rem;
     border-radius: 0.6rem;
-    font-size: 1vw;
+    font-size: 1vw;backface-visibility: hidden;
+
 }
 
 .cartao__conteudo__pergunta p{
