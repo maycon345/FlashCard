@@ -76,6 +76,7 @@ footer p{
     font-weight: 700;
 }.cartao:hover .cartao__conteudo {
     transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
